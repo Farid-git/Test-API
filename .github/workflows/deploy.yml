@@ -11,4 +11,6 @@ jobs:
       - run: ls
       - run: pwd
       - run: cd ..
+      - run: ls
+      - run: pwd
       - run: npm run build
