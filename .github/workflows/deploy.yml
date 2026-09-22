@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Начало выполнения"    
+      - run: ls
       - run: npm run build
