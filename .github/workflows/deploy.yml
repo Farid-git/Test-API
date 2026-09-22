@@ -10,7 +10,7 @@ jobs:
       - run: echo "Начало выполнения"    
       - run: ls
       - run: pwd
-      - run: cd ..
+      - run: cd -
       - run: ls
       - run: pwd
       - run: npm run build
