@@ -1,0 +1,10 @@
+name: Создание приложения
+
+on:
+- push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Начало выполнения"    
